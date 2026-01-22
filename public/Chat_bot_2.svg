@@ -1,0 +1,53 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Multicolour Chatbot Logo</title>
+  <desc id="desc">Abstract multicolour logo for a chatbot website</desc>
+
+  <defs>
+    <!-- Main multicolour gradient -->
+    <linearGradient id="multiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="25%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#F97316"/>
+      <stop offset="75%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <!-- Inner glow gradient -->
+    <radialGradient id="innerGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#E5E7EB" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Soft rounded outer shape -->
+  <path
+    d="M100 20c42 0 76 28 76 66 0 38-34 66-76 66S24 124 24 86C24 48 58 20 100 20z"
+    fill="url(#multiGrad)"
+  />
+
+  <!-- Inner glow -->
+  <circle cx="100" cy="90" r="60" fill="url(#innerGlow)" />
+
+  <!-- Abstract chat “panels” -->
+  <rect x="55" y="65" width="90" height="22" rx="11" fill="#0F172A" opacity="0.9"/>
+  <rect x="55" y="97" width="65" height="20" rx="10" fill="#0F172A" opacity="0.9"/>
+
+  <!-- Accent pills inside panels -->
+  <circle cx="70" cy="76" r="5" fill="#22C55E"/>
+  <circle cx="85" cy="76" r="5" fill="#FACC15"/>
+  <circle cx="100" cy="76" r="5" fill="#F97316"/>
+
+  <rect x="68" y="103" width="10" height="10" rx="5" fill="#38BDF8"/>
+  <rect x="84" y="103" width="10" height="10" rx="5" fill="#A855F7"/>
+  <rect x="100" y="103" width="10" height="10" rx="5" fill="#EC4899"/>
+
+  <!-- Subtle outline -->
+  <path
+    d="M100 20c42 0 76 28 76 66 0 38-34 66-76 66S24 124 24 86C24 48 58 20 100 20z"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-opacity="0.35"
+    stroke-width="3"
+  />
+</svg>
+
